@@ -4,6 +4,12 @@ Steam판 **Howler**(The Howler)의 비공식 한국어 패치입니다.
 
 게임 파일은 들어 있지 않습니다. 각자 가진 게임 파일에 스크립트를 실행해 자기 PC에서 한글판을 만듭니다.
 
+## 다운로드
+
+**[최신 릴리스 받기](https://github.com/sedoll/TheHowlerKoreanPatch/releases/latest)**
+
+릴리스 페이지의 **Source code (zip)**을 받으면 됩니다. 설치 방법은 아래 [설치](#설치)를 참고하세요.
+
 ## 번역 범위
 
 | 구분 | 내용 |
@@ -25,7 +31,7 @@ Steam판 **Howler**(The Howler)의 비공식 한국어 패치입니다.
 
 ## 설치
 
-1. 이 저장소를 내려받아 게임 폴더 **안에** 압축을 풉니다. 폴더 이름은 무엇이든 괜찮습니다.
+1. [최신 릴리스](https://github.com/sedoll/TheHowlerKoreanPatch/releases/latest)의 **Source code (zip)**을 받아 게임 폴더 **안에** 압축을 풉니다. 폴더 이름(예: `TheHowlerKoreanPatch-1.0.0`)은 무엇이든 괜찮습니다.
 
    ```
    C:\Program Files (x86)\Steam\steamapps\common\Howler\
