@@ -1,0 +1,6 @@
+# 게임 원본 파일 (저작권상 올리면 안 됨)
+Howler.swf.orig
+orig/
+
+__pycache__/
+*.pyc

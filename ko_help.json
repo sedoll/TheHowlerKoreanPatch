@@ -1,0 +1,65 @@
+{
+  "_설명": "레벨 도움말 오버레이 번역. block은 helpoverlay.find_blocks가 위→아래 순으로 찾은 글자 덩어리 번호. 목록에 없는 번호(화살표 오검출)는 건드리지 않는다.",
+  "level1": [
+    {"block": 0, "en": "Press and hold left mouse anywhere / or make noise to go up", "ko": "왼쪽 버튼을 누르고 있거나\n소리를 내면 올라갑니다"},
+    {"block": 1, "en": "Use wind to travel / left and right", "ko": "바람을 타고\n좌우로 이동"},
+    {"block": 3, "en": "Release or be quiet to go down", "ko": "버튼을 떼거나 조용히 하면 하강"},
+    {"block": 4, "en": "Wind direction / and strength", "ko": "바람의\n방향과 세기"},
+    {"block": 5, "en": "Land on platform", "ko": "승강장에 착륙"}
+  ],
+  "level2": [
+    {"block": 0, "en": "Click on wind indicator to / show/hide wind guides", "ko": "바람 표시기를 클릭하면\n바람 안내선을 켜고 끕니다"},
+    {"block": 1, "en": "Land on / platform", "ko": "승강장에\n착륙"},
+    {"block": 2, "en": "Pick / parcel", "ko": "소포\n줍기"}
+  ],
+  "level3": [
+    {"block": 0, "en": "To drop the parcel, press space / or tap the screen with two fingers (touch devices only). / You can also make short, loud noise. (this should be enabled in settings).", "ko": "소포를 떨어뜨리려면 스페이스 키를 누르세요\n(터치 기기에서는 두 손가락으로 화면을 탭).\n짧고 큰 소리를 내도 됩니다 (설정에서 켜야 함)."},
+    {"block": 1, "en": "Drop / parcel here", "ko": "여기에\n소포 투하"}
+  ],
+  "level4": [
+    {"block": 0, "en": "Gain speed in this / zone and go up immediately / before the chimney", "ko": "이 구간에서 속도를 내고\n굴뚝 바로 앞에서\n곧장 올라가세요"},
+    {"block": 2, "en": "Pick / parcels", "ko": "소포\n줍기"}
+  ],
+  "level5": [
+    {"block": 0, "en": "Gain speed in this / zone and go up immediately / before the chimney", "ko": "이 구간에서 속도를 내고\n굴뚝 바로 앞에서\n곧장 올라가세요"},
+    {"block": 1, "en": "Gain speed in this / zone and go up immediately / before the chimney", "ko": "이 구간에서 속도를 내고\n굴뚝 바로 앞에서\n곧장 올라가세요"},
+    {"block": 4, "en": "Drop / parcel here", "ko": "여기에\n소포 투하"},
+    {"block": 5, "en": "Drop / parcel here", "ko": "여기에\n소포 투하"}
+  ],
+  "level6": [
+    {"block": 0, "en": "Move right and then rise fast", "ko": "오른쪽으로 간 뒤 빠르게 상승"}
+  ],
+  "level7": [
+    {"block": 0, "en": "Pick the parcels from the / back of the Wolf then / fly into his jaws", "ko": "늑대의 등에서 소포를 집고\n늑대의 입속으로\n날아 들어가세요"},
+    {"block": 1, "en": "Pick parcels", "ko": "소포 줍기"}
+  ],
+  "level8": [
+    {"block": 0, "en": "Push the button", "ko": "버튼을 누르세요"}
+  ],
+  "level9": [
+    {"block": 0, "en": "Drop the bomb / (press space) / to explode the wall", "ko": "폭탄을 떨어뜨려\n(스페이스 키)\n벽을 폭파하세요"},
+    {"block": 1, "en": "Pick / bombs", "ko": "폭탄\n줍기"}
+  ],
+  "level10": [
+    {"block": 0, "en": "You can use explosion / impact to gain speed", "ko": "폭발의 충격을 이용해\n속도를 낼 수 있습니다"},
+    {"block": 1, "en": "Void automatons. / You can also bomb them!", "ko": "오토마톤을 피하세요.\n폭탄으로 공격해도 됩니다!"}
+  ],
+  "level11": [
+    {"block": 0, "en": "Destroy all automatons!", "ko": "오토마톤을 모두 파괴하세요!"},
+    {"block": 1, "en": "Pick / bombs", "ko": "폭탄\n줍기"}
+  ],
+  "level12": [
+    {"block": 0, "en": "Follow the automobile. Do not bomb it!", "ko": "자동차를 뒤쫓으세요. 폭격하면 안 됩니다!"},
+    {"block": 1, "en": "Destroy the automobile!", "ko": "자동차를 파괴하세요!"}
+  ],
+  "level14": [
+    {"block": 0, "en": "Land on the dirigible!", "ko": "비행선 위에 착륙하세요!"}
+  ],
+  "level15": [
+    {"block": 0, "en": "Destroy the bridge.You / must hit all 3 red spots.", "ko": "다리를 파괴하세요.\n빨간 지점 3곳을 맞히세요."},
+    {"block": 1, "en": "Use automobile trailer to carry / the bombto the middle spot.", "ko": "자동차 트레일러로 폭탄을\n가운데 지점까지 옮기세요."}
+  ],
+  "level16": [
+    {"block": 0, "en": "Land on the Cathedral. God bless you.", "ko": "대성당에 착륙하세요. 신의 가호가 있기를."}
+  ]
+}
