@@ -26,8 +26,7 @@ Steam판 **Howler**(The Howler)의 비공식 한국어 패치입니다.
 ## 필요한 것
 
 - Steam판 Howler
-- [Python](https://www.python.org/downloads/) 3.10 이상
-- Pillow, numpy (`requirements.txt`)
+- [Python](https://www.python.org/downloads/) 3.8 이상. 없으면 `install.bat`이 설치를 도와줍니다.
 
 ## 설치
 
@@ -38,43 +37,41 @@ Steam판 **Howler**(The Howler)의 비공식 한국어 패치입니다.
    ├─ Howler.exe
    ├─ Howler.swf
    ├─ media\
-   └─ KoreanPatch\      ← 이 저장소
-      ├─ make_patch.py
+   └─ TheHowlerKoreanPatch-1.0.0\      ← 압축 푼 폴더
+      ├─ install.bat
       └─ ...
    ```
 
    > Steam 라이브러리 → Howler 우클릭 → 관리 → 로컬 파일 보기 로 게임 폴더를 열 수 있습니다.
 
-2. 패치 폴더에서 필요한 라이브러리를 설치합니다.
+2. **`install.bat`을 더블클릭**합니다. 끝!
 
-   ```bash
-   py -m pip install -r requirements.txt
-   ```
+`install.bat`은 다음 일을 알아서 처리합니다.
 
-3. 패치를 만듭니다.
+- Python을 찾고, 없으면 winget으로 설치할지 묻습니다. 설치 뒤에는 `install.bat`을 한 번 더 실행하세요.
+- 필요한 라이브러리(Pillow, numpy)가 없으면 설치합니다.
+- 게임 폴더에 쓸 권한이 없으면 관리자 권한을 요청합니다. 창이 뜨면 "예"를 누르세요.
+- 게임이 켜져 있으면 끌 때까지 기다립니다.
+- 원본 파일을 `Howler.swf.orig`와 `orig\` 폴더에 백업한 뒤 한글판을 만듭니다.
 
-   ```bash
-   py make_patch.py
-   ```
+<details>
+<summary>직접 명령어로 설치하기</summary>
 
-   처음 실행하면 원본 `Howler.swf`와 바뀌는 이미지가 `Howler.swf.orig`와 `orig\` 폴더에 백업됩니다. 그다음 한글판 `Howler.swf`와 `media` 이미지가 게임 폴더에 저장됩니다.
+```bash
+py -m pip install -r requirements.txt
+py make_patch.py
+```
 
-4. 게임을 실행합니다.
-
-> `Program Files` 아래 폴더라서 쓰기 권한 오류가 나면, 명령 프롬프트를 **관리자 권한으로 실행**해서 다시 해 보세요.
+</details>
 
 ## 되돌리기
 
-```bash
-py restore.py
-```
-
-백업해 둔 원본 파일을 제자리에 복사합니다. Steam의 **게임 파일 무결성 확인**으로도 원본으로 돌아갑니다.
+**`uninstall.bat`을 더블클릭**하면 백업해 둔 원본 파일이 제자리로 돌아갑니다. Steam의 **게임 파일 무결성 확인**으로도 원본으로 돌아갑니다.
 
 ## 자주 묻는 질문
 
 **게임 업데이트나 무결성 확인 뒤 다시 영어로 나와요.**
-`py make_patch.py`를 다시 실행하세요. 패치는 항상 백업된 원본에서 새로 만들어지기 때문에 여러 번 실행해도 됩니다.
+`install.bat`을 다시 실행하세요. 패치는 항상 백업된 원본에서 새로 만들어지기 때문에 여러 번 실행해도 됩니다.
 
 **"패치 대상 원본(Steam판)과 다릅니다"라는 메시지가 나와요.**
 이 패치는 Steam판 `Howler.swf`(SHA-256 `dfac8e9f…8b64ac3`)를 기준으로 만들었습니다. Steam에서 게임 파일 무결성 확인을 하고, 패치 폴더의 `orig\` 폴더와 `Howler.swf.orig`를 지운 뒤 다시 실행하세요.
@@ -86,7 +83,7 @@ py restore.py
 | `ko.json` | 게임 코드 안의 문장. `"영어 원문": "번역"` 형식 |
 | `ko_help.json` | 레벨 도움말 이미지. `block`은 자동으로 찾은 글자 덩어리 번호, `en`은 참고용 원문 |
 
-고친 뒤 `py make_patch.py`를 다시 실행하면 반영됩니다. 번역에 새 글자를 쓰면 비트맵 폰트에도 자동으로 추가됩니다. 단, 아래 폰트에 없는 기호(「」『』 등)는 게임에 표시되지 않습니다.
+고친 뒤 `install.bat`을 다시 실행하면 반영됩니다. 번역에 새 글자를 쓰면 비트맵 폰트에도 자동으로 추가됩니다. 단, 아래 폰트에 없는 기호(「」『』 등)는 게임에 표시되지 않습니다.
 
 ## 동작 방식
 
